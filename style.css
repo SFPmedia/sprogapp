@@ -211,33 +211,106 @@ body {
 }
 
 .udfordring-bjaelke {
-  height: 20px;
+  position: relative;
+  height: 30px;
   width: 80%;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
 }
 
 .udfordring-dag1 {
-  position: relative;
-  width:19%;
+  position: absolute;
+  width:23%;
   height: 100%;
   margin: 0%;
-  color: red;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.udfordring-dag5 {
+  position: absolute;
+  width:23%;
+  height: 100%;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 77%;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.udfordring-dag2 {
+  position: absolute;
+  width:20%;
+  height: 100%;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20%;
+  background-color: orange;
+}
+
+.udfordring-dag3 {
+  position: absolute;
+  width:20%;
+  height: 100%;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 40%;
+  background-color: yellow;
+}
+
+.udfordring-dag4 {
+  position: absolute;
+  width:20%;
+  height: 100%;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 60%;
+  background-color: green;
 }
 
 .udfordring-streg1 {
+  position: absolute;
   width: 2px;
   height: 100%;
-  color: black;
+  background-color: black;
+  margin-left: 20%;
+}
+
+.udfordring-streg2 {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+  margin-left: 40%;
+}
+
+.udfordring-streg3 {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+  margin-left: 60%;
+}
+
+.udfordring-streg4 {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+  margin-left: 80%;
 }
 
 
 
 .udfordring-udfordringer {
-  width: 80%;
+  width: 100%;
   color: white;
   text-align: center;
 }
@@ -276,4 +349,46 @@ body {
 .udfordring-udfordring3 h2 {
   margin-top: 4px;
   font-size: 24px;
+}
+
+.udfordring-udfordring1 .udfordring-noncompletion {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+}
+
+.udfordring-udfordring1 .udfordring-completion {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: none;
+}
+
+.udfordring-udfordring2 .udfordring-noncompletion {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+}
+
+.udfordring-udfordring2 .udfordring-completion {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: none;
+}
+
+.udfordring-udfordring3 .udfordring-noncompletion {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+}
+
+.udfordring-udfordring3 .udfordring-completion {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: none;
 }
