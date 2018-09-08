@@ -140,3 +140,59 @@ body {
   border-radius: 5px;
   text-align: center;
 }
+
+.galleri-wrapper {
+  margin: 0%;
+  width: 100%;
+  height: 700px;
+  background-color: #cccccc;
+}
+
+.galleri-hjemknap {
+  position: absolute;
+  color: #ffffff;
+  font-size: 40px;
+  margin-left: 3%;
+  padding-top: 0.8%;
+}
+
+.galleri-billede {
+  width: 100%;
+  height: auto;
+  padding-top: 7%;
+  text-align: center;
+}
+
+.galleri-billede img {
+  width: 90%;
+}
+
+.galleri-lydoptagelse {
+  color: #ffffff;
+  font-size: 90px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.galleri-note {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.galleri-note {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.galleri-note h1 {
+  margin-bottom: 16px;
+}
+
+.galleri-note textarea {
+  color: #cccccc;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 5px;
+  border-radius: 5px;
+}
