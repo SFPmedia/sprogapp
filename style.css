@@ -223,10 +223,9 @@ body {
 
 .udfordring-dag1 {
   position: absolute;
-  width:23%;
+  width:24%;
   height: 100%;
   margin: 0%;
-  background-color: red;
   border-radius: 20px;
 }
 
@@ -238,7 +237,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 77%;
-  background-color: blue;
+  background-color: white;
   border-radius: 20px;
 }
 
@@ -250,7 +249,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 20%;
-  background-color: orange;
+  background-color: white;
 }
 
 .udfordring-dag3 {
@@ -261,7 +260,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 40%;
-  background-color: yellow;
+  background-color: white;
 }
 
 .udfordring-dag4 {
@@ -272,7 +271,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 60%;
-  background-color: green;
+  background-color: white;
 }
 
 .udfordring-streg1 {
