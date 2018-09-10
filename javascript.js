@@ -14,12 +14,20 @@ $(".udfordring-udfordring1 .udfordring-completion").click(function(){
     $(".udfordring-udfordring1 .udfordring-noncompletion").fadeIn(500);
 });
 
-$(".spilside-valgmuligheder .spilside-valg1").click(function(){
-    $(".spilside-valg1").css("background-color", "green");
+$(".spilside-valgmuligheder .spilside-sandtvalg1").click(function(){
+    $(this).css("background-color", "green");
 });
 
-$(".spilside-valgmuligheder .spilside-valg2").click(function(){
-    $(".spilside-valg2").css("background-color", "red");
+$(".spilside-valgmuligheder .spilside-sandtvalg2").click(function(){
+    $(this).css("background-color", "green");
+});
+
+$(".spilside-valgmuligheder .spilside-forkertvalg1").click(function(){
+    $(this).css("background-color", "red");
+});
+
+$(".spilside-valgmuligheder .spilside-forkertvalg2").click(function(){
+    $(this).css("background-color", "red");
 });
 
 $(".galleri-lydoptagelse").click(function(){

@@ -80,7 +80,7 @@ body {
 .spilside-wrapper {
   margin: 0%;
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-color: #95b5b7;
 }
 
@@ -112,14 +112,15 @@ body {
 
 .spilside-valgmuligheder {
   color: #ffffff;
-  margin-top: 16%;
+  margin-top: 12%;
   font-size: 14px;
   margin-left: auto;
   margin-right: auto;
 
 }
 
-.spilside-valg1 {
+.spilside-sandtvalg1 {
+  margin-top: 3%;
   width: 38%;
   float: left;
   margin-left: 8%;
@@ -130,10 +131,35 @@ body {
   text-align: center;
 }
 
-.spilside-valg2 {
+.spilside-sandtvalg2 {
+  margin-top: 3%;
   width: 38%;
   float: right;
   margin-right: 8%;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.spilside-forkertvalg1 {
+  margin-top: 3%;
+  width: 38%;
+  float: right;
+  margin-right: 8%;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.spilside-forkertvalg2 {
+  margin-top: 3%;
+  width: 38%;
+  float: left;
+  margin-left: 8%;
   border-style: solid;
   border-color: #ffffff;
   border-width: 5px;
