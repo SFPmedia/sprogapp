@@ -30,6 +30,19 @@ alert("Alert");
       $(this).css("background-color", "red");
   });
 
+  var flot = 'flot.html';
+
+  $('.spilside-sandtvalg1').click(function(e) {
+    e.preventDefault();
+    setTimeout(function() { window.location = flot }, 2000, this.href);
+  });
+
+  $('.spilside-sandtvalg2').click(function(e) {
+    e.preventDefault();
+    setTimeout(function() { window.location = flot }, 2000, this.href);
+  });
+
+
   $(".noter-lydoptagelse").click(function(){
       $(this).hide();
       $(".noter-lydoptagelse2").fadeIn(500);
