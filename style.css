@@ -6,6 +6,18 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: arial;
+}
+
+h2 {
+  font-family: arial;
+}
+
+p {
+  font-family: arial;
+}
+
 .spilnav-wrapper {
   margin: 0%;
   width: 100%;
@@ -125,7 +137,7 @@ a {
 .spilside-valgmuligheder {
   color: #ffffff;
   margin-top: 12%;
-  font-size: 14px;
+  font-size: 12px;
   margin-left: auto;
   margin-right: auto;
 
