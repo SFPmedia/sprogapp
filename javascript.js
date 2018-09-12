@@ -1,7 +1,7 @@
 $(document).ready(() => {
 
   $(".udfordring-udfordring1 .udfordring-noncompletion").click(function(){
-        $(".udfordring-dag1").css("background-color", "red");
+        $(".udfordring-dag1").css("background-color", "#27B949");
         $(this).hide();
         $(".udfordring-udfordring1 .udfordring-completion").fadeIn(500);
   });
@@ -13,19 +13,19 @@ $(document).ready(() => {
   });
 
   $(".spilside-valgmuligheder .spilside-sandtvalg1").click(function(){
-      $(this).css("background-color", "green");
+      $(this).css("background-color", "#27B949");
   });
 
   $(".spilside-valgmuligheder .spilside-sandtvalg2").click(function(){
-      $(this).css("background-color", "green");
+      $(this).css("background-color", "#27B949");
   });
 
   $(".spilside-valgmuligheder .spilside-forkertvalg1").click(function(){
-      $(this).css("background-color", "red");
+      $(this).css("background-color", "#C61D1D");
   });
 
   $(".spilside-valgmuligheder .spilside-forkertvalg2").click(function(){
-      $(this).css("background-color", "red");
+      $(this).css("background-color", "#C61D1D");
   });
 
   var flot = 'flot.html';
