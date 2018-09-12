@@ -20,6 +20,10 @@ a {
   padding-top: 0.8%;
 }
 
+.spilnav-hjemknap img {
+  width: 40px;
+}
+
 .spilnav-h1 h1 {
   color: #ffffff;
   margin-top: 0%;
@@ -94,6 +98,10 @@ a {
   font-size: 40px;
   margin-left: 3%;
   padding-top: 0.8%;
+}
+
+.spilside-hjemknap img {
+  width: 40px;
 }
 
 .spilside-billede {
@@ -171,14 +179,14 @@ a {
   text-align: center;
 }
 
-.galleri-wrapper {
+.noter-wrapper {
   margin: 0%;
   width: 100%;
   height: 700px;
   background-color: #cccccc;
 }
 
-.galleri-hjemknap {
+.noter-hjemknap {
   position: absolute;
   color: #ffffff;
   font-size: 40px;
@@ -186,25 +194,29 @@ a {
   padding-top: 0.8%;
 }
 
-.galleri-billede {
+.noter-hjemknap img {
+  width: 40px;
+}
+
+.noter-billede {
   width: 100%;
   height: auto;
   padding-top: 7%;
   text-align: center;
 }
 
-.galleri-billede img {
+.noter-billede img {
   width: 90%;
 }
 
-.galleri-lydoptagelse {
+.noter-lydoptagelse {
   color: #ffffff;
   font-size: 90px;
   text-align: center;
   margin-top: 15%;
 }
 
-.galleri-lydoptagelse2 {
+.noter-lydoptagelse2 {
   color: red;
   font-size: 90px;
   text-align: center;
@@ -212,22 +224,22 @@ a {
   display: none;
 }
 
-.galleri-note {
+.noter-note {
   text-align: center;
   width: 100%;
   margin-top: 50px;
 }
 
-.galleri-note {
+.noter-note {
   color: #ffffff;
   font-size: 22px;
 }
 
-.galleri-note h1 {
+.noter-note h1 {
   margin-bottom: 16px;
 }
 
-.galleri-note textarea {
+.noter-note textarea {
   color: #cccccc;
   border-style: solid;
   border-color: #ffffff;
@@ -246,6 +258,10 @@ a {
   font-size: 40px;
   margin-left: 3%;
   padding-top: 0.8%;
+}
+
+.udfordring-hjemknap img {
+  width: 40px;
 }
 
 .udfordring-bjaelke {

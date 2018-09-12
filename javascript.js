@@ -30,16 +30,16 @@ alert("Alert");
       $(this).css("background-color", "red");
   });
 
-  $(".galleri-lydoptagelse").click(function(){
+  $(".noter-lydoptagelse").click(function(){
       $(".udfordring-dag1").css("background-color", "red");
       $(this).hide();
-      $(".galleri-lydoptagelse2").fadeIn(500);
+      $(".noter-lydoptagelse2").fadeIn(500);
   });
 
-  $(".galleri-lydoptagelse2").click(function(){
+  $(".noter-lydoptagelse2").click(function(){
     $(".udfordring-dag1").css("background-color", "white");
     $(this).hide();
-    $(".galleri-lydoptagelse").fadeIn(500);
+    $(".noter-lydoptagelse").fadeIn(500);
   });
 
 
