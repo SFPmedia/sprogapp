@@ -31,15 +31,28 @@ alert("Alert");
   });
 
   $(".noter-lydoptagelse").click(function(){
-      $(".udfordring-dag1").css("background-color", "red");
       $(this).hide();
       $(".noter-lydoptagelse2").fadeIn(500);
   });
 
   $(".noter-lydoptagelse2").click(function(){
-    $(".udfordring-dag1").css("background-color", "white");
     $(this).hide();
     $(".noter-lydoptagelse").fadeIn(500);
+  });
+
+  $(".record_lydoptagelse").click(function(){
+      $(this).hide();
+      $(".record_stop").hide();
+      $(".record_lydoptagelse2").fadeIn(500);
+      $(".record_stop2").fadeIn(500);
+  });
+
+  $(".record_stop2").click(function(){
+    $(this).hide();
+    $(".record_lydoptagelse2").hide();
+    $(".record_lydoptagelse").fadeIn(500);
+    $(".record_stop").fadeIn(500);
+    $(".record_play").fadeIn(500);
   });
 
 

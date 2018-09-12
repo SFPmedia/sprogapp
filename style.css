@@ -183,7 +183,7 @@ a {
   margin: 0%;
   width: 100%;
   height: 700px;
-  background-color: #cccccc;
+  background-color: #C3D2D3;
 }
 
 .noter-hjemknap {
@@ -212,22 +212,47 @@ a {
 .noter-lydoptagelse {
   color: #ffffff;
   font-size: 90px;
-  text-align: center;
-  margin-top: 15%;
+  float: right;
+  margin-top: 0%;
+  margin-right: 9%;
+}
+
+.noter-lydoptagelse img {
+width: 65px;
+margin-right: 0px;
 }
 
 .noter-lydoptagelse2 {
+  color: #ffffff;
+  font-size: 90px;
+  float: right;
+  margin-top: 0%;
+  margin-right: 9%;
+  display: none;
+}
+
+.noter-lydoptagelse2 img {
+width: 65px;
+margin-right: 0px;
+}
+
+.noter-lydoptagelse3 {
   color: red;
   font-size: 90px;
-  text-align: center;
-  margin-top: 15%;
-  display: none;
+  float: right;
+  margin-top: 0%;
+  margin-right: 3%;
+}
+
+.noter-lydoptagelse3 img {
+  width: 65px;
+  margin-right: 0px;
 }
 
 .noter-note {
   text-align: center;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 14px;
 }
 
 .noter-note {
@@ -236,7 +261,10 @@ a {
 }
 
 .noter-note h1 {
-  margin-bottom: 16px;
+  float: left;
+  margin-bottom: 0px;
+  margin-left: 9%;
+  font-size: 40px;
 }
 
 .noter-note textarea {
@@ -246,6 +274,87 @@ a {
   border-width: 5px;
   border-radius: 5px;
 }
+
+.note-record-wrapper {
+  margin: 0%;
+  width: 100%;
+  height: 700px;
+  background-color: #C3D2D3;
+}
+
+.record_lydoptagelse {
+  font-size: 90px;
+  float: left;
+  margin-top: 28%;
+  margin-left: 30%;
+}
+
+.record_lydoptagelse img {
+width: 65px;
+margin-right: 0px;
+}
+
+.record_lydoptagelse2 {
+  font-size: 90px;
+  float: left;
+  margin-top: 28%;
+  margin-left: 30%;
+  display: none;
+}
+
+.record_lydoptagelse2 img {
+width: 65px;
+margin-right: 0px;
+}
+
+.record_stop {
+  font-size: 90px;
+  float: right;
+  margin-top: 28%;
+  margin-right: 30%;
+}
+
+.record_stop img {
+width: 65px;
+margin-right: 0px;
+}
+
+.record_stop2 {
+  font-size: 90px;
+  float: right;
+  margin-top: 28%;
+  margin-right: 30%;
+  display: none;
+}
+
+.record_stop2 img {
+width: 65px;
+margin-right: 0px;
+}
+
+.stopur {
+  margin-top: 232px;
+}
+
+.stopur h1 {
+  color: #005260;
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.record_play {
+  font-size: 90px;
+  margin-top: 0%;
+text-align: center;
+  display: none;
+}
+
+.record_play img {
+width: 65px;
+margin-right: 0px;
+}
+
 
 .udfordring-wrapper {
   margin: 0%;
