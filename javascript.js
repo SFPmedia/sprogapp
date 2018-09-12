@@ -1,7 +1,5 @@
 $(document).ready(() => {
 
-alert("Alert");
-
   $(".udfordring-udfordring1 .udfordring-noncompletion").click(function(){
         $(".udfordring-dag1").css("background-color", "red");
         $(this).hide();
