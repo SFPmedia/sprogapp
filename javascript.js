@@ -48,12 +48,12 @@ om, hvorvidt de lå i venstre eller højre side.
 
   $('.spilside-sandtvalg1').click(function(e) {
     e.preventDefault();
-    setTimeout(function() { window.location = flot }, 2000, this.href);
+    setTimeout(function() { window.location = flot }, 1500, this.href);
   });
 
   $('.spilside-sandtvalg2').click(function(e) {
     e.preventDefault();
-    setTimeout(function() { window.location = flot }, 2000, this.href);
+    setTimeout(function() { window.location = flot }, 1500, this.href);
   });
 
 
@@ -61,7 +61,7 @@ om, hvorvidt de lå i venstre eller højre side.
 
 
 /* Denne del går ind og skifter billederne på optag og stop, samt play, når
-de bliver trykket. Dette er også bare en visuel repræsentation for nu. Men 
+de bliver trykket. Dette er også bare en visuel repræsentation for nu. Men
 de tænkes at de skal fungere med den lydfil som de går igang med at optage.
 ... Og timeren nedenunder.
 */
@@ -90,5 +90,14 @@ de tænkes at de skal fungere med den lydfil som de går igang med at optage.
     $(".record_play").fadeIn(500);
   });
 
+
+
+
+  //Fremskridt
+  $(function() {
+        $('.chart').easyPieChart({
+            //your options goes here
+        });
+    });
 
 });
