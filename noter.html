@@ -11,8 +11,19 @@
   </head>
 
   <body>
+
+    <!-- "Wrapper" klassen indeholder alt hvad "body" klassen
+      indeholder. Den er til for at man bedre kan stylé
+      den individuelle body i hver html-fil, uden at skulle
+      bruge en separat css-fil.-->
     <div class="noter-wrapper">
 
+      <!-- i headeren har vi vores primære navigation, som består af
+        en "tilbage"-knap.
+        "a" elementet er et link som er blevet smidt på og "img" elementet
+        er refferencen til det billede der skal bruges.
+        klassen som hedder "spilside-hjemknap" bliver brugt på mange
+        af HTML-siderne da de stylés éns.-->
       <header>
       <a href="galleri.html"><div class="noter-hjemknap">
           <img src="billeder/tilbage_knap.png" alt="Et tilbage-symbol">
@@ -35,6 +46,10 @@
         <textarea name="note-box" rows="8" cols="45" placeholder="Skriv tekst her..."></textarea>
       </div>
     </div>
+    
+    <!-- Der bliver referret til js filen og jQuery biblioteket
+    som det sidste for at sørge for at det er det sidste som bliver
+    indlæst i koden. En ekstra foranstaltning er dog taget i js filen.-->
     <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

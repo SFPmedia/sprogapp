@@ -1,3 +1,11 @@
+/* 3 personer tilføjede kode uafhængigt af hinanden. Derfor blev
+style lavet om til style2, da det var den letteste og hurtigste løsning
+på at "merge" koden.
+Alle klasserne starter ud med navne som referrere til den HTML-side
+som de tilhører. Dette burde gøre det lettere at finde frem til
+dem som man leder efter.
+*/
+
 body {
   margin: 0%;
 }

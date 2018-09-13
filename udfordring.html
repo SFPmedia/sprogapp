@@ -11,16 +11,33 @@
   </head>
 
   <body>
+
+    <!-- "Wrapper" klassen indeholder alt hvad "body" klassen
+      indeholder. Den er til for at man bedre kan stylé
+      den individuelle body i hver html-fil, uden at skulle
+      bruge en separat css-fil.-->
     <div class="udfordring-wrapper">
 
-      <header>
 
-        <a href="menuside.html"><div class="udfordring-hjemknap">
+      <!-- i headeren har vi vores primære navigation, som består af
+        en "tilbage"-knap.
+        "a" elementet er et link som er blevet smidt på og "img" elementet
+        er refferencen til det billede der skal bruges.
+        klassen som hedder "hjemknap" bliver brugt på mange
+        af HTML-siderne da de stylés éns.-->
+      <header>
+        <a href="menuside.html">
+          <div class="udfordring-hjemknap">
             <img src="billeder/tilbage_knap.png" alt="Et tilbage-symbol">
-          </div></a>
+          </div>
+        </a>
       </header>
 
 
+      <!-- Udfordring bjælken er delt op i 5 dele, med streger
+      imellem for at separere dem. Tallende repræsentere rækkefølgen
+      som de står i. Dette betyder at hver af bjælkerne kan interageres
+      med individuelt, og forholdsvist let.-->
       <div class="udfordring-bjaelke">
 
         <div class="udfordring-dag1">
@@ -52,6 +69,12 @@
 
       </div>
 
+
+      <!-- Denne del er opsat i forskellige udfordringer, hvor tanken
+      bag, er at udfordringerne bliver udskiftet til nye fra dag til dag.
+      Når en udfordring er løst (for eksempel, tag et billede), så er det
+      meningen at billede skal skifte fra "noncompletion" til "completion",
+      og lyse en af bjælkerne op.-->
       <div class="udfordring-udfordringer">
 
         <div class="udfordring-udfordring1">
@@ -63,7 +86,7 @@
           <div class="udfordring-completion">
             <img src="billeder/completion.png" alt="Et billede af et farverigt okay-tegn">
           </div>
-          </div>
+        </div>
 
 
         <div class="udfordring-udfordring2">
@@ -75,7 +98,7 @@
           <div class="udfordring-completion">
             <img src="billeder/completion.png" alt="Et billede af et farverigt okay-tegn">
           </div>
-          </div>
+        </div>
 
 
         <div class="udfordring-udfordring3">
@@ -87,10 +110,14 @@
           <div class="udfordring-completion">
             <img src="billeder/completion.png" alt="Et billede af et farverigt okay-tegn">
           </div>
-          </div>
+        </div>
 
       </div>
     </div>
+
+    <!-- Der bliver referret til js filen og jQuery biblioteket
+    som det sidste for at sørge for at det er det sidste som bliver
+    indlæst i koden. En ekstra foranstaltning er dog taget i js filen.-->
     <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
